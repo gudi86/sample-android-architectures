@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SampleAndroidArchitecture</string>
+    <string name="lbl_fullname">%s %s</string>
+    <string name="lbl_weight">%s Kg</string>
 </resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Birthday"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btn_add_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Person" />
+
+        <ProgressBar
+            android:id="@+id/prg_add_person"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+</LinearLayout>
